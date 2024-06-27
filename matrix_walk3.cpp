@@ -16,7 +16,7 @@ string walk_through_matrix(vector<string>& m){
     int init_row = 0;
     int init_col = 0;
     step_deck.push_back(row);
-    deque.push_back(step_deck);
+    step_history.push_back(step_deck);
     
     string return_value;
     string direction;
