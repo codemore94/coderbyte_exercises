@@ -1,16 +1,4 @@
-"""
->>> reverse_name("Techie, Teddy")
-'Teddy Techie'
->>> reverse_name("Scumble,    Arnold")
-'Arnold Scumble'
->>> reverse_name("Fortunato,Frank")
-'Frank Fortunato'
->>> reverse_name("von Grünbaumberger, Herbert")
-'Herbert von Grünbaumberger'
->>> reverse_name("   Duck,     Donald  ")
-'Donald Duck'
 
-"""
 def reverse_name(name):
     """.
     :param name: string, the name with possible spaces and dots.
