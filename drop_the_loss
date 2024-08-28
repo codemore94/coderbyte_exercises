@@ -1,0 +1,3 @@
+drop_the_loss:
+drop the loss value directly in dijkstra way in feedforward by guessing suitable loss value while still
+in hidden layers and choose optional values for weights so that the guessed loss value is smaller than with original 
